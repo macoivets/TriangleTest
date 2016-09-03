@@ -10,6 +10,21 @@ namespace TriangleTest
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("1.txt");
+            var f1=new Mas(15);
+            f1.ReadArr("1.txt");
+
+            Console.WriteLine("Max="+f1.FindPath());
+            //f1.WriteArr();
+            Console.WriteLine(" -------- ");
+
+            Console.WriteLine("2.txt");
+            var f2 = new Mas(100);
+            f2.ReadArr("2.txt");
+
+            Console.WriteLine("Max=" + f2.FindPath());
+
+            Console.ReadLine();
         }
     }
 }
