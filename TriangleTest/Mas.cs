@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
+
 namespace TriangleTest
 {
     public class Mas
@@ -18,6 +19,7 @@ namespace TriangleTest
         {
             Arr=new int[size][];
             var file = new StreamReader(filename);
+            //var file = Resources._1.;
             for (int i = 0; i < size; i++)
             {
                 var line = file.ReadLine();
